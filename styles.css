@@ -56,17 +56,17 @@ a:hover{
 .box-around {
   padding:1px 0px;
   border:2px inset #EDEDE9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 3px;
-    background: grey;
-    margin:10px 2px;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  background: grey;
+  margin:10vh 2vw;
+}
 
 .box {
-  width:50;  
-  height:50;
+  width:100vw;  
+  height:50vh;
   background: #CFCFBE;
   border: 2px outset #D0D4BF;
   border-radius:5px;
@@ -78,4 +78,3 @@ a:hover{
   outline: 1px solid black;
   margin: 0px; 
 }
-
