@@ -12,7 +12,7 @@ html, body {
 }
 
 .layout {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
 
   display: grid;
@@ -31,6 +31,7 @@ html, body {
   align-items: center;
   border-radius: 3px;
   background: grey;
+  box-sizing:border-box;
 }
 
 .header { 
@@ -40,7 +41,7 @@ html, body {
 .main { 
   grid-area: main; 
   min-height: 0;
-
+}
 .footer { 
   grid-area: footer; 
 }
@@ -78,21 +79,23 @@ a:hover{
 }
 
 .nav-button {
-  padding:0px 8px; 
-  background:#CFCFBE; 
-  color:black; 
-  line-height:1.8; 
-  letter-spacing:1px; 
-  text-decoration:none; 
-  border:2px outset #EDEDE9; 
-  border-radius:3px; 
-  box-shadow:0 0 2px black; 
-  outline:1px solid black; 
+  padding: 6px 16px;
+  background: #CFCFBE; 
+  color: black; 
+  font-size: 14px;
+  letter-spacing: 1px; 
+  text-decoration: none; 
+  border: 2px outset #EDEDE9; 
+  border-radius: 3px; 
+  box-shadow: 0 0 2px black; 
+  outline: 1px solid black; 
   box-sizing: border-box;
+  display: inline-flex;
+  align-self: center;
 }
 
 .nav-button a {
-  padding:0px 5px; 
+  padding:6px 16px; 
   background:#CFCFBE; 
   color:black; 
   font-size:10px; 
@@ -113,8 +116,8 @@ a:hover{
 
 .grid-overlay {
   position:absolute;
-  width:95vw;
-  height:70vh;
+  width:95%;
+  height:70%;
   pointer-events:none;
   background-image:
     linear-gradient(to right, rgba(0,0,0,.3) 1px, transparent 1px),
@@ -140,7 +143,7 @@ a:hover{
 }
 
 .main-box {
-  width:100vw;  
+  width:100%;
   height:80vh;
   background: #CFCFBE;
   border: 2px outset #D0D4BF;
@@ -175,16 +178,16 @@ a:hover{
   padding:1px 0px;
   border:2px inset #EDEDE9;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   border-radius: 3px;
   background: grey;
-  margin:0vw 10vh;
+  width:100%;
 }
 
 .nav-box {
-  width:100vw;  
-  height:4vh;
+  width:100%;
+  height:8vh;
   background: #CFCFBE;
   border: 2px outset #D0D4BF;
   border-radius:5px;
@@ -193,5 +196,6 @@ a:hover{
   box-shadow: 0px 0px 5px rgba(0,0,0,.5);
   outline: 1px solid black;
   margin: 0px; 
+  align-content:center;
   justify-content:center;
 }
