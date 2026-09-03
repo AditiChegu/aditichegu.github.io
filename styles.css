@@ -83,7 +83,7 @@ a:hover{
   z-index:1;
 }
 
-.box-around {
+.main-box-around {
   padding:1px 0px;
   border:2px inset #EDEDE9;
   display: flex;
@@ -94,7 +94,7 @@ a:hover{
   margin:10vh 2vw;
 }
 
-.box {
+.main-box {
   width:100vw;  
   height:50vh;
   background: #CFCFBE;
@@ -109,7 +109,7 @@ a:hover{
   margin: 0px; 
 }
 
-.box-inside {
+.main-box-inside {
   width:92vw;
   height:45vh;
   outline:inset;
@@ -124,4 +124,30 @@ a:hover{
   background-color:#afcc9e;
   align-items:center;
   z-index:0;
+}
+
+.nav-box-around {
+  padding:1px 0px;
+  border:2px inset #EDEDE9;
+  display: flex;
+  justify-content: bottom;
+  align-items: center;
+  border-radius: 3px;
+  background: grey;
+  margin:10vh 2vw;
+}
+
+.nav-box {
+  width:100vw;  
+  height:50vh;
+  background: #CFCFBE;
+  border: 2px outset #D0D4BF;
+  border-radius:5px;
+  display: flex;
+  justify-content: bottom;
+  align-items: center;
+  gap:7px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+  outline: 1px solid black;
+  margin: 0px; 
 }
