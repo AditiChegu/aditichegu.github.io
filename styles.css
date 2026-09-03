@@ -78,3 +78,17 @@ a:hover{
   outline: 1px solid black;
   margin: 0px; 
 }
+
+.box-inside {
+  width:20px;
+  height:20px;
+  outline:inset;
+  outline-width:2px;
+  outline-color:#D0D4BF;
+  border-top:1px solid black;
+  border-left:1px solid black;
+  border-right:1px solid transparent;
+  border-bottom:1px solid transparent;
+  margin-right:3px;
+  margin-bottom:3px;
+}
