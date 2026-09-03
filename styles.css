@@ -54,16 +54,13 @@ a:hover{
 }
 
 .about {
-  display: block;
-  flex-direction: row;
-  height: auto;
-  width: fit-content;
-  flex-wrap: wrap;
-  padding:9px 5px;
-  background-color:#BABDAD;
-  border:2px outset #D0D4BF;
-  border-radius:4px;
-  box-shadow:0px 0px 5px rgba(0,0,0,.5), 0px 0px 2px black, 0px 0px 2px black;
-  margin:5px;  
+  padding:1px 0px;
+  border:2px inset #EDEDE9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  background: grey;
+  margin:10px 2px;  
 }
 
