@@ -94,7 +94,7 @@ a:hover{
   align-self: center;
 }
 
-.nav-button a {
+.nav-button {
   padding:6px 16px; 
   background:#CFCFBE; 
   color:black; 
@@ -108,7 +108,7 @@ a:hover{
   outline:1px solid black; 
   box-sizing: border-box; 
 }
-.nav-button a:hover {
+.nav-button:hover {
   font-weight:100; 
   text-decoration-style:wavy; 
 }
