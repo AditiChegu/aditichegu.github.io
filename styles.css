@@ -35,6 +35,8 @@ a:hover{
   color:black;
 }
 
+.nav-content {display:flex; padding:0px 2px; }
+
 .nav-button {
   background:grey; 
   padding:4px 2px 3px 2px; 
