@@ -47,7 +47,7 @@ a:hover{
   background-size:4px 4px, 4px 4px, 20px 20px, 20px 20px;
   background-repeat:repeat;
   mix-blend-mode:overlay;
-  z-index:0;
+  z-index:1;
 }
 
 .box-around {
@@ -89,4 +89,5 @@ a:hover{
   margin-right:3px;
   margin-bottom:3px;
   background-color:#afcc9e;
+  z-index:0;
 }
