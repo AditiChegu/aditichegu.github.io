@@ -54,19 +54,16 @@ a:hover{
 }
 
 .about {
-  display:flex;
-  position:relative;
-  width:50px;
-  height:40px;
-  background:conic-gradient(#ffffff 90deg, #d1d1d1 90deg 180deg, #ffffff 180deg 270deg, #d1d1d1 270deg);
-  background-size:5px 5px;
-  background-position:top left;
-  background-repeat:repeat;
-  align-items:center;
-  justify-content:center;
-  outline:2px inset #D0D4BF;
-  border-top:1px solid black;
-  border-left:1px solid black;
-  margin:5px auto 0px; 
+  display: block;
+  flex-direction: row;
+  height: auto;
+  width: fit-content;
+  flex-wrap: wrap;
+  padding:9px 5px;
+  background-color:#BABDAD;
+  border:2px outset #D0D4BF;
+  border-radius:4px;
+  box-shadow:0px 0px 5px rgba(0,0,0,.5), 0px 0px 2px black, 0px 0px 2px black;
+  margin:5px;  
 }
 
