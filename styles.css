@@ -4,6 +4,22 @@
   font-style: normal;
 }
 
+.layout {
+  width: 100%;
+
+  display: grid;
+  grid:
+    "header" auto
+    "main" 1fr
+    "footer" auto
+    / 1fr;
+  gap: 8px;
+}
+
+.header { grid-area: header; }
+.main { grid-area: main; }
+.footer { grid-area: footer; }
+
 body {
   background-color: #d1e1ed;
   text-shadow: 1px 1px 2px rgba(255,0,0,0.4), -1px -1px 2px rgba(0,100,255,0.4), 0px -1px 2px rgba(0,255,0,0.4);
