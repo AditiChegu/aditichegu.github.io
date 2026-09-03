@@ -53,16 +53,16 @@ a:hover{
   z-index:0;
 }
 
-.header {
+.about {
   display:flex; 
   position:absolute; 
   bottom:0px; 
   width:99.5%; 
   height:30px; 
   padding:.1rem; 
-  background:#CFCFBE; 
+  background:red; 
   align-items:center; 
   justify-content:space-between; 
-  border-top:2px outset #EDEDE9; 
+  border-top:2px outset red; 
 }
 
