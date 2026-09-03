@@ -53,7 +53,18 @@ a:hover{
   z-index:0;
 }
 
-.about {
+.box-around {
+  padding:1px 0px;
+  border:2px inset #EDEDE9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    background: grey;
+    margin:10px 2px;
+  }
+
+.box {
   width:50;  
   height:50;
   background: #CFCFBE;
