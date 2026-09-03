@@ -91,3 +91,8 @@ a:hover{
   background-color:#afcc9e;
   z-index:0;
 }
+
+.to-front{
+  position:relative;
+  z-index:2;
+}
